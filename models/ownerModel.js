@@ -8,7 +8,8 @@ const ownerSchema = mongoose.Schema({
     type:Array,
     default : []
   },
-  picture: String
+  picture: String,
+  ownerGSTIN :String,
 })
 
 module.exports = mongoose.model("admin",ownerSchema);
