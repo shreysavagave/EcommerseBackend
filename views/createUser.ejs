@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-900">
+  <div class="create_account w-full min-h-screen bg-zinc-900 text-white">
+    <h1 class="mt-20 flex justify-center text-2xl">WElCOME to <span class="text-yellow-500">ECOMMERCE</span></h1>
+    <div class="createaccount flex justify-center">
+
+    <form action="/users/createUser" method="post" class="flex justify-center align-center flex-col w-max m-5 mt-12 p-5 bg-zinc-800">
+      <h1 class="flex justify-center m-5 text-xl">Create Account</h1>
+      <input class="bg-transparent rounded-md border-2 border-zinc-600 outline-none m-2 p-2 " type="text" name="fullname" placeholder="name" id="">
+
+      <input class="bg-transparent rounded-md border-2 border-zinc-600 outline-none m-2 p-2 " type="text" name="email" placeholder="email" id="">
+
+      <input class="bg-transparent rounded-md border-2 border-zinc-600 outline-none m-2 p-2 " type="text" name="username" placeholder="username" id="">
+
+      <input class="bg-transparent rounded-md border-2 border-zinc-600 outline-none m-2 p-2 " type="text" name="password" placeholder="password" id="">
+
+      <input class="bg-blue-800 border-1 border-zinc-600 rounded-md m-2 p-2 " type="submit" value="create account">
+
+      <p>dont have an account ? <a href="/" class="text-blue-400">Log In now</a> </p>
+    </form>
+  </div>
+</div>
+</body>
+</html>
